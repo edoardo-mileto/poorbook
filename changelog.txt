@@ -9,8 +9,9 @@ La versione attuale prevede:
 - modifica ed eliminazione delle informazioni presenti sul proprio profilo
 - modifica di nome e cognome del proprio utente
 
-# v_3 in progress
+# v_3 17/01/20
 - Il pulsante "Amici" nella barra laterale di sinistra porta a list.php?friends dove viene effettuata la query corretta
+- aggiunta icona sito
 
 note:
 - i tipi di informazioni che è possibile aggiungere sul profilo vengono caricati dal database
@@ -21,6 +22,5 @@ note:
 
 to-do:
 - filtro nella barra di ricerca
-- icona sito
 - quando rimuovo un'amicizia torna sul profilo sbagliato
 - immagini profilo utenti
