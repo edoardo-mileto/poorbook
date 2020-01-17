@@ -169,7 +169,7 @@
           </div>";
         }
         echo "</div>";
-        $i++;
+        $i-=-1;
       }
 
       //old posts loader

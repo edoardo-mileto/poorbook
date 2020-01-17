@@ -89,7 +89,7 @@
           }else{
             echo '<option value="' . $i . '">' . $i . '</option>';
           }
-          $i++;
+          $i-=-1;
         }
         echo '</select>';
         $visArray = array(
@@ -105,7 +105,7 @@
           }else{
             echo '<option value="' . $k . '">' . $opzioneVis . '</option>';
           }
-          $k++;
+          $k-=-1;
         }
         echo '</select>';
         echo "<input type='hidden' name='pr_id' value='" . $_POST['profilerow_update'] . "'>";
