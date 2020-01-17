@@ -1,0 +1,26 @@
+La versione attuale prevede:
+
+# v_2 31/12/19
+- pubblicazione di nuovi post
+- modifica ed eliminazione dei post attuali (se postati dall'utente loggato)
+- invio, ritiro e rifiuto delle richieste di amicizia
+- eliminazione delle amicizie
+- pubblicazione di nuove informazioni sul profilo (profilerows)
+- modifica ed eliminazione delle informazioni presenti sul proprio profilo
+- modifica di nome e cognome del proprio utente
+
+# v_3 in progress
+- Il pulsante "Amici" nella barra laterale di sinistra porta a list.php?friends dove viene effettuata la query corretta
+
+note:
+- i tipi di informazioni che è possibile aggiungere sul profilo vengono caricati dal database
+- se al login vengono inserite credenziali errate compare un avviso
+- se si cerca di pubblicare un post/profilerows dal contenuto vuoto viene impedito e compare un messaggio di avviso
+- nell'index, i nomi degli utenti che hanno pubblicato i post sono cliccabili e portano al profilo corrispettivo
+- nelle pagine dedicate alle modifiche (edit, edit_post, edit_user) vengono precaricati i valori del post/profilerow/utente che si sta modificando
+
+to-do:
+- filtro nella barra di ricerca
+- icona sito
+- quando rimuovo un'amicizia torna sul profilo sbagliato
+- immagini profilo utenti
