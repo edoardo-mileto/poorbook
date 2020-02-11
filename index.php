@@ -107,6 +107,9 @@
                         <li><a href="list.php?friends" class="active">Amici</a></li>
                         <li><a href="<?php echo 'profile.php?ptr_user=' . $_SESSION["user_id"] ?>" class="active">Profilo</a></li>
                         <li><a href="#">Impostazioni</a></li>
+                        <br>
+                        <br>
+                        <li><a href="../trivia" class="active">Gioca a Trivia!</a></li>
                     </ul>
                 </div>
               <div class="col-sm-6">
