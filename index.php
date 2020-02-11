@@ -41,18 +41,18 @@
   <head>
     <title> Poorbook - home</title>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets/css/style.css"/>
-      <link rel="stylesheet" href="assets/css/admin.css"/>
-      <link rel="icon" href="assets/imgs/poorbook_logo_3.png">
-      <style>
-          .box{
-              background: rgba(255,255,255,1);
-              padding: 10px 20px;
-              border-radius: 2px;
-              box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
-          }
-      </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/admin.css"/>
+    <link rel="icon" href="assets/imgs/poorbook_logo_3.png">
+    <style>
+        .box{
+            background: rgba(255,255,255,1);
+            padding: 10px 20px;
+            border-radius: 2px;
+            box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.4);
+        }
+    </style>
   </head>
   
   <body>
