@@ -34,7 +34,7 @@ if (!array_key_exists("username", $_SESSION)){
     }
 }
 
-echo '{"code":1,"description":"logged in"}';
+echo '{"code":1,"description":"logged in", "username":"' . $_SESSION["username"] . '"}';
 
 ?>
 
