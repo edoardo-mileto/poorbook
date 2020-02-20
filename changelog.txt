@@ -24,3 +24,5 @@ to-do:
 - filtro nella barra di ricerca
 - quando rimuovo un'amicizia torna sul profilo sbagliato
 - immagini profilo utenti
+- logout api
+- show correct answer 
