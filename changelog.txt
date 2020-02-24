@@ -1,6 +1,6 @@
 La versione attuale prevede:
 
-# v_2 31/12/19
+# v_0.2 Poorbook 31/12/19
 - pubblicazione di nuovi post
 - modifica ed eliminazione dei post attuali (se postati dall'utente loggato)
 - invio, ritiro e rifiuto delle richieste di amicizia
@@ -9,9 +9,18 @@ La versione attuale prevede:
 - modifica ed eliminazione delle informazioni presenti sul proprio profilo
 - modifica di nome e cognome del proprio utente
 
-# v_3 17/01/20
-- Il pulsante "Amici" nella barra laterale di sinistra porta a list.php?friends dove viene effettuata la query corretta
+# v_0.3 Poorbook 17/01/20
+- Il pulsante "Amici" nella barra laterale di sinistra porta a list.php?friends dove viene correttamente effettuata la query che mostra solamente gli amici
 - aggiunta icona sito
+
+# v_0.4 Poorbook 16/02/20
+- Nella home page di Poorbook pulsante per giocare a trivia
+
+# v_0.1 Trivia 16/02/20
+- Se la risposta inserita è sbagliata, nell'alert appare qual era la risposta corretta
+- aggiunta icona sito
+- il testo di fine quiz cambia in base al numero di risposte corrette
+- logout
 
 note:
 - i tipi di informazioni che è possibile aggiungere sul profilo vengono caricati dal database
@@ -22,7 +31,7 @@ note:
 
 to-do:
 - filtro nella barra di ricerca
-- quando rimuovo un'amicizia torna sul profilo sbagliato
 - immagini profilo utenti
 - logout api
-- show correct answer 
+- trivia homepage -> select category, difficulty
+- poorbook header -> searchbar popup/slide out
