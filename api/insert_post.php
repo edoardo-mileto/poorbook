@@ -7,7 +7,7 @@ if (!array_key_exists("correct", $_POST) || !array_key_exists("wrong", $_POST)) 
         exit;
     }else{
 
-$testo = "Ciao!\nHo giocato a Trivia ed ho fatto " . $_POST['correct'] . " risposte corrette e " . $_POST['wrong'] . " risposte sbagliate\nGioca anche te a trivia! <a href=\"../trivia\">Clicca qui</a>";
+$testo = "Ciao!\nHo giocato a Trivia ed ho fatto " . $_POST['correct'] . " risposte corrette e " . $_POST['wrong'] . " risposte sbagliate\nGioca anche te a trivia! <a href=\"../trivia\" target=\"_blank\">Clicca qui</a>";
 
 $p = new Post();
 $p->message = $testo;
