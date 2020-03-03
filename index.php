@@ -109,7 +109,7 @@
                         <li><a href="#">Impostazioni</a></li>
                         <br>
                         <br>
-                        <li><a href="../trivia" class="active">Gioca a Trivia!</a></li>
+                        <li><a href="../trivia" target="_blank" class="active">Gioca a Trivia!</a></li>
                     </ul>
                 </div>
               <div class="col-sm-6">
