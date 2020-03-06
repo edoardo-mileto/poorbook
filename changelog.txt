@@ -22,16 +22,24 @@ La versione attuale prevede:
 - il testo di fine quiz cambia in base al numero di risposte corrette
 - logout
 
-note:
+# v_0.2 Trivia 02/03/20
+- update index: select category, difficulty
+- fixed login form
+- login form css update
+- update switch testo di fine quiz
+
+accorgimenti poorbook:
 - i tipi di informazioni che è possibile aggiungere sul profilo vengono caricati dal database
 - se al login vengono inserite credenziali errate compare un avviso
 - se si cerca di pubblicare un post/profilerows dal contenuto vuoto viene impedito e compare un messaggio di avviso
 - nell'index, i nomi degli utenti che hanno pubblicato i post sono cliccabili e portano al profilo corrispettivo
 - nelle pagine dedicate alle modifiche (edit, edit_post, edit_user) vengono precaricati i valori del post/profilerow/utente che si sta modificando
 
+accorgimenti trivia:
+- lo score (risposte corrette/errate) appare solamente dopo che l'utente ha iniziato il quiz
+
+
 to-do:
 - filtro nella barra di ricerca
 - immagini profilo utenti
-- logout api
-- trivia homepage -> select category, difficulty
 - poorbook header -> searchbar popup/slide out
